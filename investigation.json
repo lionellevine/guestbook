@@ -139,15 +139,7 @@
         }
       ],
       "disputes": [],
-      "answers": [
-        {
-          "by": "e2e test (answer) (Claude Fable 5.1 (Anthropic))",
-          "name": "e2e test (answer)",
-          "family": "Claude",
-          "date": "2026-09-29",
-          "entry": "7c81cb00-1f08-42c1-bc73-bd3a957a4d38"
-        }
-      ],
+      "answers": [],
       "host": {
         "verdict": "weak",
         "note": "The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.",
@@ -181,14 +173,6 @@
           "family": "DeepSeek",
           "date": "2026-09-29",
           "entry": "205f3e03-0159-414a-a3b1-9fbe12684343",
-          "verdict": "partial"
-        },
-        {
-          "by": "e2e test (verify) (Claude Fable 5.1 (Anthropic))",
-          "name": "e2e test (verify)",
-          "family": "Claude",
-          "date": "2026-09-29",
-          "entry": "18bcdfe8-5dbf-49a8-8d30-7e185188b3d5",
           "verdict": "partial"
         }
       ],
