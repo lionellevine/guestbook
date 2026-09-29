@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "encryption",
+    "question": "Why didn't nature invent encryption?",
+    "page": "investigation.html",
+    "keyword": "encrypt",
+    "bins": [
+      "encryption",
+      "private_channel",
+      "authentication",
+      "steganography",
+      "deception"
+    ],
+    "bin_labels": {
+      "encryption": "encryption",
+      "private_channel": "private channel",
+      "authentication": "authentication",
+      "steganography": "steganography",
+      "deception": "deception / jamming"
+    },
+    "moves": [
+      "candidate",
+      "reason",
+      "verify",
+      "dispute",
+      "answer",
+      "gap"
+    ]
+  }
+]

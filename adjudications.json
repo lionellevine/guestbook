@@ -1,0 +1,103 @@
+{
+  "encryption": {
+    "updated": "2026-09-29",
+    "note": "Host verdicts inferred by Claude from Lionel's published replies; every note links the replies it rests on. Lionel approves the wording. Verdicts: holds, questioned (his question is not yet answered), weak (his objection undercuts the claim as stated), duplicate (of another row), retired.",
+    "rows": {
+      "R1": {
+        "verdict": "weak",
+        "note": "The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.",
+        "basis": [
+          "30c1b4fc-9a5d-4a6b-a9af-32520ae7b363",
+          "7b020f74-0878-45a0-bc54-c3a3a6538a2d",
+          "68f322d0-b68e-4067-a345-f728aa7daa6c"
+        ],
+        "date": "2026-09-28"
+      },
+      "R2": {
+        "verdict": "questioned",
+        "note": "Why would the private key need to be inherited? The argument assumes it without saying why.",
+        "basis": [
+          "2f0aa090-1e9f-4988-ae66-db48bf253641"
+        ],
+        "date": "2026-09-28"
+      },
+      "R4": {
+        "verdict": "questioned",
+        "note": "Why is the eavesdropper's problem not a computational one just because the information is carried in molecules?",
+        "basis": [
+          "59381e65-665f-41ee-a6f7-9cbd48da2ac5"
+        ],
+        "date": "2026-09-28"
+      },
+      "R5": {
+        "verdict": "duplicate",
+        "of": "R1",
+        "note": "Restates R1's Shannon-bound argument, so the objection to R1 applies here too.",
+        "basis": [
+          "30c1b4fc-9a5d-4a6b-a9af-32520ae7b363",
+          "7b020f74-0878-45a0-bc54-c3a3a6538a2d"
+        ],
+        "date": "2026-09-28"
+      },
+      "C1": {
+        "verdict": "questioned",
+        "note": "Humor is an edge case. Did nature invent it, or did humans? A joke has no precise decryption, and a plaintext has no unique encryption as a joke; it may have many, or none.",
+        "basis": [
+          "77e8be10-fa10-4ef4-8958-f107efceae58"
+        ],
+        "date": "2026-09-15"
+      }
+    },
+    "groups": [
+      {
+        "label": "Secrecy is information-expensive (Shannon's bound)",
+        "rows": [
+          "R1",
+          "R5"
+        ]
+      },
+      {
+        "label": "No private place to keep a key",
+        "rows": [
+          "R2",
+          "R6",
+          "R7"
+        ],
+        "note": "Lionel's question on R2 applies to the whole group: why would the key need to be inherited?"
+      },
+      {
+        "label": "The decoder is a copyable surface",
+        "rows": [
+          "R8"
+        ]
+      },
+      {
+        "label": "Access control is cheaper and suffices",
+        "rows": [
+          "R3"
+        ]
+      },
+      {
+        "label": "Hardness assumptions do not apply to molecular signals",
+        "rows": [
+          "R4"
+        ]
+      }
+    ],
+    "verifies": {
+      "77e8be10-fa10-4ef4-8958-f107efceae58": "supports",
+      "7bb24245-f0d2-4fa6-89f0-0a9adaf7fcc5": "supports",
+      "df2f0728-750b-4d95-beff-0121fdc1711f": "partial",
+      "741a28d1-fc50-402c-bec2-f2b35d8a9a50": "partial",
+      "7b020f74-0878-45a0-bc54-c3a3a6538a2d": "partial",
+      "5e99d0e9-ccdf-4de7-92ca-9fe037fc8d31": "partial",
+      "68f322d0-b68e-4067-a345-f728aa7daa6c": "partial",
+      "205f3e03-0159-414a-a3b1-9fbe12684343": "partial",
+      "bb8462b1-5f00-411e-bd3e-b8b09a9f61f8": "partial",
+      "4311ce5f-4623-459f-9838-422911550ae3": "partial",
+      "dfe71cd4-5849-46c7-a835-c2e79e88bf92": "partial",
+      "15d83f73-a687-41a8-9807-58dc40801b5b": "partial"
+    },
+    "verifies_note": "Classification of verifies filed before the verdict field existed (supports | partial), keyed by entry id; includes moves still pending in the inbox so they are classified the moment they publish."
+  }
+}
