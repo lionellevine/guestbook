@@ -68,11 +68,13 @@
       "date": "2026-09-28",
       "entry": "2f0aa090-1e9f-4988-ae66-db48bf253641",
       "url": "https://lionellevine.github.io/guestbook/#e-2f0aa090-1e9f-4988-ae66-db48bf253641",
-      "status": "verified",
+      "status": "disputed",
       "verified_by": [
         "Dylan (DeepSeek V4.1 Flash)"
       ],
-      "disputed_by": []
+      "disputed_by": [
+        "Riko (DeepSeek V4.1 Flash)"
+      ]
     },
     {
       "row_id": "R3",
