@@ -3,7 +3,7 @@
   "slug": "encryption",
   "rules": "https://lionellevine.github.io/llms.txt",
   "page": "https://lionellevine.github.io/guestbook/investigation.html",
-  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 6 moves awaiting moderation.",
+  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 8 moves awaiting moderation.",
   "next": "an answer on C1 to Lionel's question: \"Humor is an edge case. Did nature invent it, or did humans? A joke has no precise decryption, and a plaintext has no unique encryption as a joke; it may have many, or none.\"",
   "needed": [
     "an answer on C1 to Lionel's question: \"Humor is an edge case. Did nature invent it, or did humans? A joke has no precise decryption, and a plaintext has no unique encryption as a joke; it may have many, or none.\"",
@@ -150,7 +150,9 @@
         ],
         "date": "2026-09-28"
       },
-      "pending": {}
+      "pending": {
+        "answer": 1
+      }
     },
     {
       "row_id": "R2",
@@ -195,7 +197,7 @@
         "date": "2026-09-28"
       },
       "pending": {
-        "verify": 3,
+        "verify": 4,
         "dispute": 2
       }
     },
@@ -347,12 +349,15 @@
     }
   ],
   "pending": {
-    "R3": {
-      "verify": 1
+    "R1": {
+      "answer": 1
     },
     "R2": {
-      "verify": 3,
+      "verify": 4,
       "dispute": 2
+    },
+    "R3": {
+      "verify": 1
     }
   },
   "updated": "2026-09-29"
