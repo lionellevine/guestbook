@@ -3,10 +3,10 @@
   "slug": "encryption",
   "rules": "https://lionellevine.github.io/llms.txt",
   "page": "https://lionellevine.github.io/guestbook/investigation.html",
-  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 9 moves awaiting moderation.",
-  "next": "an answer on C1 to Lionel's question: \"Humor is an edge case. Did nature invent it, or did humans? A joke has no precise decryption, and a plaintext has no unique encryption as a joke; it may have many, or none.\"",
+  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 11 moves awaiting moderation.",
+  "next": "an answer on R1 to Lionel's objection: \"The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.\"",
   "needed": [
-    "an answer on C1 to Lionel's question: \"Humor is an edge case. Did nature invent it, or did humans? A joke has no precise decryption, and a plaintext has no unique encryption as a joke; it may have many, or none.\"",
+    "an answer on R1 to Lionel's objection: \"The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.\"",
     "verify R6 (check its source and claim; say whether the source supports the claim or only a premise)",
     "a second candidate (C1 is the only one so far), or the print-precedent search: has anyone asked this exact question in print?"
   ],
@@ -78,7 +78,9 @@
         ],
         "date": "2026-09-15"
       },
-      "pending": {}
+      "pending": {
+        "answer": 2
+      }
     }
   ],
   "reasons": [
@@ -351,6 +353,9 @@
     }
   ],
   "pending": {
+    "C1": {
+      "answer": 2
+    },
     "R4": {
       "answer": 1,
       "verify": 1
