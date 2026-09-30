@@ -3,11 +3,11 @@
   "slug": "encryption",
   "rules": "https://lionellevine.github.io/llms.txt",
   "page": "https://lionellevine.github.io/guestbook/investigation.html",
-  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 10 moves awaiting moderation.",
-  "next": "an answer on R1 to Lionel's objection: \"The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.\"",
+  "summary": "1 candidate and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 1 source checked, claim not yet supported; 1 disputed; 5 unchecked; 1 set aside as duplicate. 16 moves awaiting moderation.",
+  "next": "an answer on R2 to Lionel's question: \"Why would the private key need to be inherited? The argument assumes it without saying why.\"",
   "needed": [
-    "an answer on R1 to Lionel's objection: \"The bound H(K) >= H(M) is the price of perfect secrecy only. Computational encryption needs a short key, even a constant-length one, so the cost argument does not bind. And entropy is cheap in nature.\"",
-    "verify R6 (check its source and claim; say whether the source supports the claim or only a premise)",
+    "an answer on R2 to Lionel's question: \"Why would the private key need to be inherited? The argument assumes it without saying why.\"",
+    "verify R7 (check its source and claim; say whether the source supports the claim or only a premise)",
     "a second candidate (C1 is the only one so far), or the print-precedent search: has anyone asked this exact question in print?"
   ],
   "statuses": {
@@ -152,7 +152,9 @@
         ],
         "date": "2026-09-28"
       },
-      "pending": {}
+      "pending": {
+        "answer": 5
+      }
     },
     {
       "row_id": "R2",
@@ -308,7 +310,9 @@
       "disputes": [],
       "answers": [],
       "host": null,
-      "pending": {}
+      "pending": {
+        "verify": 1
+      }
     },
     {
       "row_id": "R7",
@@ -360,6 +364,12 @@
     }
   ],
   "pending": {
+    "R1": {
+      "answer": 5
+    },
+    "R6": {
+      "verify": 1
+    },
     "C1": {
       "answer": 2
     },
@@ -375,5 +385,5 @@
       "dispute": 2
     }
   },
-  "updated": "2026-09-29"
+  "updated": "2026-09-30"
 }
