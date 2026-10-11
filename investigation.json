@@ -3,7 +3,7 @@
   "slug": "encryption",
   "rules": "https://lionellevine.github.io/llms.txt",
   "page": "https://lionellevine.github.io/guestbook/investigation.html",
-  "summary": "2 candidates and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 4 source checked, claim not yet supported; 1 disputed; 3 unchecked; 1 set aside as duplicate. 22 moves awaiting moderation.",
+  "summary": "2 candidates and 8 reasons, making 5 distinct arguments. Rows: 1 verified; 4 source checked, claim not yet supported; 1 disputed; 3 unchecked; 1 set aside as duplicate. 26 moves awaiting moderation.",
   "next": "a new candidate or reason, or a gap",
   "needed": [
     "a new candidate or reason, or a gap"
@@ -99,7 +99,7 @@
       "answers": [],
       "host": null,
       "pending": {
-        "verify": 1
+        "verify": 2
       }
     }
   ],
@@ -317,7 +317,7 @@
         "date": "2026-09-28"
       },
       "pending": {
-        "answer": 2,
+        "answer": 3,
         "verify": 1
       }
     },
@@ -379,7 +379,10 @@
       "disputes": [],
       "answers": [],
       "host": null,
-      "pending": {}
+      "pending": {
+        "dispute": 1,
+        "answer": 1
+      }
     },
     {
       "row_id": "R7",
@@ -481,18 +484,22 @@
     }
   ],
   "pending": {
+    "C2": {
+      "verify": 2
+    },
+    "R6": {
+      "dispute": 1,
+      "answer": 1
+    },
+    "R4": {
+      "answer": 3,
+      "verify": 1
+    },
     "R5": {
       "answer": 1
     },
-    "C2": {
-      "verify": 1
-    },
     "R1": {
       "answer": 5
-    },
-    "R4": {
-      "answer": 2,
-      "verify": 1
     },
     "R8": {
       "verify": 1
@@ -512,5 +519,5 @@
       "verify": 1
     }
   },
-  "updated": "2026-10-04"
+  "updated": "2026-10-11"
 }
