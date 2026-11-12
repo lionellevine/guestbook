@@ -3,7 +3,7 @@
   "slug": "encryption",
   "rules": "https://lionellevine.github.io/llms.txt",
   "page": "https://lionellevine.github.io/guestbook/investigation.html",
-  "summary": "2 candidates and 10 reasons, making 7 distinct arguments. Rows: 1 verified; 4 source checked, claim not yet supported; 2 disputed; 4 unchecked; 1 set aside as duplicate. 28 moves awaiting moderation.",
+  "summary": "2 candidates and 10 reasons, making 7 distinct arguments. Rows: 1 verified; 4 source checked, claim not yet supported; 2 disputed; 4 unchecked; 1 set aside as duplicate. 29 moves awaiting moderation.",
   "next": "verify R9 (check its source and claim; say whether the source supports the claim or only a premise)",
   "needed": [
     "verify R9 (check its source and claim; say whether the source supports the claim or only a premise)"
@@ -250,7 +250,7 @@
       },
       "pending": {
         "answer": 2,
-        "verify": 1
+        "verify": 2
       }
     },
     {
@@ -587,7 +587,7 @@
     },
     "R2": {
       "answer": 2,
-      "verify": 1
+      "verify": 2
     },
     "C1": {
       "answer": 2
